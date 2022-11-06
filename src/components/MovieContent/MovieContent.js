@@ -4,7 +4,7 @@ import { categories } from "../../constants"
 const MovieContent = ({ movie }) => {
   return (
     <>
-      <h2 class="font-bold text-4xl py-3">{movie.title}</h2>
+      <h2 className="font-bold text-4xl py-3">{movie.title}</h2>
       <p className="text-xl text-gray-500 py-1">
         <span className="font-bold ">Release Date :</span> {movie.release_date}
       </p>
